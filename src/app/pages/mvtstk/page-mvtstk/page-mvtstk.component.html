@@ -1,0 +1,170 @@
+<div class="col">
+    <div class="  row  m-3 p-0">
+        <div class="  col-md-8">
+            <h2>Mouvement du stock </h2>
+
+        </div>
+        <div class="col-md-4" style="text-align: right;margin-left: 85%;">
+         <app-boutton-action [estImporterVisible]="false" [estNouveauVisible]="false"></app-boutton-action>
+        </div>
+    </div>
+    <div class=" col m-3" >
+        <div class="accordion" id="accordionExample"  >
+            <div class="card  mb-2" >
+              <div class="card-header" id="headingOne" >
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-decoration: none;">
+                    <app-datail-mvtstk-article></app-datail-mvtstk-article>
+                    
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="max-height: 200px; overflow-y: scroll;">
+                <div class="card-body">
+                   <app-detail-mvtstk></app-detail-mvtstk>
+                   <div class=" row mb-1  mr-0 castom-border" >
+  
+                    <!-- details article -->
+                    <div class="col-md-3 border-right mb-1 mt-1 ">
+                        <div class="col ">
+                            <div class="row" style="text-align: center;" >
+                               
+                                <div  class="col-md-11"><h5>Date:01/01/2022</h5></div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <!-- categories -->
+                    <div class="col-md-3 border-right mb-1 mt-1">
+                        <div class="row">
+                           
+                            
+                               
+                                    
+                                    <div class="col-md-12" style="text-align: center;">
+                
+                                        <h5>Quantité:150</h5>
+                                    </div>
+                                
+                        
+                            
+                        </div>
+                    </div>
+                
+                    <div class="col-md-3 border-right mb-1 mt-1">
+                        <div class="row">
+                           
+                            
+                               
+                                    
+                                    <div class="col-md-12" style="text-align: center;">
+                
+                                        <h5>Type: Entré</h5>
+                                    </div>
+                                
+                        
+                            
+                        </div>
+                    </div>
+                    <!-- bouttons action -->
+                    <div class="col-md-3 mb-1 mt-1 " >
+                        <div class="row" style="text-align: center;" >
+                           
+                                
+                                   <h5>commande: Fournisseur</h5>
+                                
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+                  
+                   <div class=" row mb-1  mr-0 castom-border" >
+  
+                    <!-- details article -->
+                    <div class="col-md-3 border-right mb-1 mt-1 ">
+                        <div class="col ">
+                            <div class="row" style="text-align: center;" >
+                               
+                                <div  class="col-md-11"><h5>Date:15/12/2021</h5></div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <!-- categories -->
+                    <div class="col-md-3 border-right mb-1 mt-1">
+                        <div class="row">
+                           
+                            
+                               
+                                    
+                                    <div class="col-md-12" style="text-align: center;">
+                
+                                        <h5>Quantité:100</h5>
+                                    </div>
+                                
+                        
+                            
+                        </div>
+                    </div>
+                
+                    <div class="col-md-3 border-right mb-1 mt-1">
+                        <div class="row">
+                           
+                            
+                               
+                                    
+                                    <div class="col-md-12" style="text-align: center;">
+                
+                                        <h5>Type: Entré</h5>
+                                    </div>
+                                
+                        
+                            
+                        </div>
+                    </div>
+                    <!-- bouttons action -->
+                    <div class="col-md-3 mb-1 mt-1 " >
+                        <div class="row" style="text-align: center;" >
+                           
+                                
+                                   <h5>commande: Fournisseur</h5>
+                                
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-2">
+              <div class="card-header" id="headingOne1">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" style="text-decoration: none;">
+                    <app-datail-mvtstk-article></app-datail-mvtstk-article>
+                    
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseTwo" class="collapse " aria-labelledby="headingOne1" data-bs-parent="#accordionExample" style="max-height: 200px; overflow-y: scroll;">
+                <div class="card-body">
+                   <app-detail-mvtstk></app-detail-mvtstk>
+                   <app-detail-mvtstk></app-detail-mvtstk>
+                   <app-detail-mvtstk></app-detail-mvtstk>
+                   <app-detail-mvtstk></app-detail-mvtstk>
+                </div>
+              </div>
+            </div>
+   
+        </div>
+    </div>
+    <div class="row mb-3 " style="text-align: center;">
+        <div class=" col-md-12 text-center">
+            <app-pagination></app-pagination>
+        </div>
+        
+    </div>
+</div>

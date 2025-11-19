@@ -1,0 +1,49 @@
+<div class="row m-4">
+    <div class="card col-md-4 " style="text-align: center; margin-right: 20px;">
+        <div class="col" >
+            <div class="mb-3 mt-2">
+                <img src="../../../assets/utilisateur.png" style="width: 200px;">
+            </div>
+            <div class="mb-3">
+                <h2>
+                    Nom Prenom
+                </h2>
+                <small class="form-text text-muted">
+                    Adresse,  Code postal
+                </small>
+            </div>
+           
+        </div>
+
+      
+    </div>
+    <div class="card col-md-7 ">
+        <form class="m-2">
+            <div class="form-group mb-2">
+             
+              <input type="password" class="form-control"aria-describedby="emailHelp" placeholder="Ancien mot de passe">
+              
+            </div>
+            <div class="form-group mb-2">
+             
+              <input type="password" class="form-control"  placeholder="Nouveau mot de passe">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Confirmer mot de passe">
+
+            </div>
+            
+            <div class="row m-3 " >
+                <div class="col-md-12" style="text-align: right;">
+                    <button class="btn btn-danger " (click)="cancelClick()">
+                        <i class="fas fa-ban"></i>&nbsp;Annuler</button>
+                    <button class="btn btn-primary margin-left " (click)="saveClick()">
+                        <i class="fas fa-save " ></i>&nbsp;Enregistrer</button>
+                </div>
+                
+            </div>
+          </form>
+
+    </div>
+</div>
+ 

@@ -1,0 +1,111 @@
+
+<div class="col margin-left margin-right">
+   
+    <div class="col-md-12">
+        <div class="col-md-12 mb-3 mt-2">
+            <h2> Nouvelle commande {{origin}} </h2>
+           
+        </div>
+        <div class="row castom-border p-3">
+            <div class="col-md-5 border-right">
+                <form>
+                  
+                    <div class="form-group">
+                     
+                      <input type="text" class="form-control mb-2"  placeholder="Date commande">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control mb-2" placeholder=" Code article">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control ">
+                        <option>Selectionnez un {{origin}} </option>
+                        <option>{{origin}} 1</option>
+                        <option>{{origin}} 2</option>
+                        <option>{{origin}} 3</option>
+                        <option>{{origin}} 4</option>
+                    </select>
+                     
+                        
+                      </div>
+                      
+                  </form>
+
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="col ">
+                    <div class="row ">
+                        <div class="col-md-1" >  <i class="fas fa-info-circle blue-color"></i></div>
+                        <div  class="col-md-11" >Nom  </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1">  <i class="fas fa-info-circle blue-color"></i></div>
+                        <div class="col-md-11" >Prénom</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1" >  <i class="fas fa-info-circle blue-color"></i></div>
+                        <div  class="col-md-11" >Matricule  </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"> <i class="fas fa-phone-alt blue-color"></i></div>
+                        <div  class="col-md-11">Numéro de téléphone  </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1" >  <i class="fas fa-hourglass-start blue-color"></i></div>
+                        <div  class="col-md-10" >Etat : EN PREPARATION</div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-md-2 " style="text-align: center;">
+                <img src="../../assets/utilisateur.png" style="width: 130px; " >
+            </div>
+            
+        </div>
+        <div class="row  p-3 castom-border mt-2">
+              <form>
+                <div class="row">
+                  
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Quantité">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Prix unitair">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Etat du commande">
+                  </div>
+                 
+                  <div class="col">
+                    <button class="btn btn-success" ><i class="fas fa-plus"></i></button>
+                  </div>
+                </div>
+              </form>
+        </div>
+        <!-- <div class="row mt-2 p-3 castom-border" style="max-height: 200px; overflow-y: scroll;">
+          <app-detail-cmd></app-detail-cmd>
+          <app-detail-cmd></app-detail-cmd>
+          <app-detail-cmd></app-detail-cmd>
+          <app-detail-cmd></app-detail-cmd>
+          <app-detail-cmd></app-detail-cmd>
+          <app-detail-cmd></app-detail-cmd>
+          <app-detail-cmd></app-detail-cmd>
+          <app-detail-cmd></app-detail-cmd>
+      </div> -->
+      <div class="row mt-2 p-3 castom-border" style="text-align:right;" >
+        <h4>Total de la commande : 10 000</h4>
+      </div>
+    </div>
+   
+    <div class="col-md-12  mt-2 mb-2" style="text-align: right;">
+        <button class="btn btn-danger " (click)="cancelClick()">
+            <i class="fas fa-ban"></i>&nbsp;Annuler</button>
+        <button class="btn btn-primary margin-left " (click)="saveClick()">
+            <i class="fas fa-save "></i>&nbsp;Enregistrer</button>
+    </div>
+</div>
+
+ 

@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+
+body{
+    background-color: #eff2f6 !important;
+}
+.bachground-grey{
+    background-color: #eff2f6 !important;
+}
+.border-none{
+    border:none !important;
+}
+.min-height-80{
+    min-height: 80px;
+}
+.border-right{
+    border-right: 2px  solid  #9Ca1a6 !important;
+   
+}
+.castom-border{
+    border: solid #9Ca1a6;
+    border-radius: 5px;
+}
+.blue-color{
+    color:#057bfe;
+}
+.margin-left{
+    margin-left:20px;
+}
+.margin-right{
+    margin-right:20px
+}
+.widht{
+    width: 165%; 
+    
+}
+.white-text {
+    color: white !important; /* Utilisez !important pour s'assurer que le style sera appliqué */
+  }
+/* You can add global styles to this file, and also import other style files */
+.my-container{
+    width: 500px;
+   margin-top:70px;
+   
+}
+.white-color{
+    color:white;
+}
+.size{
+    font-size: 12px;
+}

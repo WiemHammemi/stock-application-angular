@@ -1,0 +1,17 @@
+
+<div class="d-flex ">
+    <div class="p-2 flex-fill " *ngIf="estImporterVisible">
+        
+        <button type="button" class="btn btn-warning d-flex align-items-center"><i class="fas fa-cloud-upload-alt"></i>&nbsp;Importer</button>
+    </div>
+    <div class="p-2 flex-fill " *ngIf="estExporterVisible">
+        
+        <button type="button" class="btn btn-success d-flex align-items-center"> <i class="fas fa-cloud-download-alt"></i>&nbsp;Exporter</button>
+    </div>
+    <div class="p-2 flex-fill " *ngIf="estNouveauVisible">
+        
+        <button type="button" class="btn btn-primary d-flex align-items-center" (click)="bouttonNouveauClick()"> <i class="fas fa-plus"></i>&nbsp;Nouveau</button>
+    </div>
+</div>
+ 
+
